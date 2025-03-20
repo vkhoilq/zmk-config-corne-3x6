@@ -131,7 +131,7 @@ layers:
   - ENTER
   Fn:
   - {t: BT, h: '0'}
-  - {t: ▽, type: trans}
+  - RGB TOG
   - '&pdw'
   - {t: ▽, type: trans}
   - Alt+UP ARROW
@@ -143,7 +143,7 @@ layers:
   - F5
   - F6
   - {t: BT, h: '1'}
-  - BT CLR
+  - '&bl BL_TOG'
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - Alt+DOWN ARROW
@@ -155,7 +155,7 @@ layers:
   - F11
   - F12
   - {t: BT, h: '2'}
-  - OUT BLE
+  - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
