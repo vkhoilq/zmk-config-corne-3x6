@@ -60,7 +60,7 @@
 &kp GRAVE   &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS  &kp MINUS          &kp PLUS         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDER        &kp EQUAL
 &kp AT      &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3  &kp KP_NUMBER_4       &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7        &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp KP_NUMBER_0  &kp BACKSLASH
 &kp DOLLAR  &none            &kp AMPERSAND     &kp LEFT         &kp RIGHT             &kp AMPERSAND      &kp ASTRK        &kp UP_ARROW           &kp DOWN         &kp CARET          &none            &kp POUND
-                                               &kp LEFT_GUI     &none                 &kp SPACE          &kp RET          &to 2                  &none
+                                               &none            &none                 &kp SPACE          &kp RET          &to 2                  &none
             >;
         };
 
@@ -76,7 +76,7 @@
 &kp F3        &kp F1        &kp F2          &mmv MOVE_UP    &kp F4           &kp F5       &kp F6   &kp F7        &kp KP_MULTIPLY  &kp F9    &kp F10       &kp F8
 &bt BT_CLR    &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none        &none    &mkp MB1      &mkp MB3         &mkp MB2  &kp K_VOL_UP  &kp F11
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 1    &msc SCRL_LEFT  &msc SCRL_RIGHT  &none        &none    &msc SCRL_UP  &msc SCRL_RIGHT  &none     &kp K_VOL_DN  &kp F12
-                                            &none           &none            &kp SPACE    &kp RET  &none         &none
+                                            &kp LEFT_GUI    &none            &kp SPACE    &kp RET  &none         &none
             >;
         };
 
