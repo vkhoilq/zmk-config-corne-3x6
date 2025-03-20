@@ -1,134 +1,263 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Base:
+  QWERTY:
   - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - ESC
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
+  - {t: T, h: '5'}
+  - {t: Y, h: '6'}
+  - {t: U, h: '7'}
+  - {t: I, h: '8'}
+  - {t: O, h: '9'}
+  - {t: P, h: '0'}
+  - \
+  - LALT
+  - {t: A, h: LEFT WIN}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: '['}
+  - {t: H, h: '-'}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT SHIFT}
   - ''''
-  - LSHFT
+  - LCTRL
   - Z
   - X
   - C
   - V
-  - B
-  - N
+  - {t: B, h: ']'}
+  - {t: N, h: '='}
   - M
   - ','
   - .
   - /
-  - RSHIFT
-  - LEFT CONTROL
-  - LEFT ALT
-  - SPACE
-  - RET
-  - '&sitcky_layer1'
-  - {t: Raise, h: toggle}
-  Lower:
   - '`'
-  - '!'
-  - '['
-  - '{'
-  - (
-  - '-'
-  - +
-  - )
-  - '}'
-  - ']'
-  - _
-  - '='
-  - '@'
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
-  - \
-  - $
-  - ''
-  - '&'
-  - LEFT
-  - RIGHT
-  - '&'
-  - '*'
-  - UP ARROW
-  - DOWN
-  - ^
-  - ''
-  - '#'
-  - ''
-  - ''
+  - {t: ESCAPE, h: Fn}
+  - {t: BACKSPACE, h: NUMBER}
+  - {t: TAB, h: MOUSE}
+  - {t: ENTER, h: Fn}
   - SPACE
-  - RET
-  - {t: Raise, h: toggle}
+  - ENTER
+  RESERVED:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - HOME
+  - PG UP
   - ''
-  Raise:
-  - F3
+  - RGB OFF
+  - RGB ON
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGB EFF
+  - RGB EFR
+  - RGB SPI
+  - RGB BRI
+  - RGB BRD
+  - END
+  - PG DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - DEL
+  - {t: ▽, type: trans}
+  NUMBER:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - INSERT
+  - {t: ▽, type: trans}
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
+  - LEFT SHIFT
+  - Sft+Ctl+INSERT
+  - HOME
+  - {t: UP ARROW, h: RIGHT SHIFT}
+  - END
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '&ENTER_VIM_COMMAND'
+  - LEFT
+  - DOWN ARROW
+  - RIGHT ARROW
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: RIGHT ARROW, h: LEFT SHIFT}
+  - RET
+  - SPACE
+  - ENTER
+  Fn:
+  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
+  - '&pdw'
+  - {t: ▽, type: trans}
+  - Alt+UP ARROW
+  - {t: ▽, type: trans}
   - F1
   - F2
-  - '&mmv MOVE_UP'
+  - F3
   - F4
   - F5
   - F6
+  - {t: BT, h: '1'}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
+  - Alt+DOWN ARROW
+  - Alt+RIGHT ARROW
   - F7
-  - KP MULTIPLY
+  - F8
   - F9
   - F10
-  - F8
-  - BT CLR
-  - ''
+  - F11
+  - F12
+  - {t: BT, h: '2'}
+  - OUT BLE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  MOUSE:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT ARROW
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_UP'
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+RIGHT
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - ''
-  - ''
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - VOL UP
-  - F11
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '1'}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_RIGHT'
-  - ''
-  - ''
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
-  - ''
-  - VOL DN
-  - F12
-  - LEFT GUI
-  - ''
-  - SPACE
-  - RET
-  - ''
-  - ''
+  - '&msc SCRL_DOWN'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  TV_REMOTE:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [37, 40]
-  k: {t: Base, h: toggle}
+- p: [0, 12, 24]
+  k: '&CL_BT'
