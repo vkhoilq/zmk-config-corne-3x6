@@ -20,7 +20,7 @@
             bindings = <&to 0>;
             key-positions = <37 40>;
             timeout-ms = <0>;
-            layers = <0>;
+            layers = <1 2>;
         };
     };
 
@@ -28,7 +28,7 @@
         sitcky_layer1: sitcky_layer1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sl 1>;
+            bindings = <&sl 0>;
             label = "SITCKY_LAYER1";
         };
     };
