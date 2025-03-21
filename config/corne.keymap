@@ -78,10 +78,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp F3        &kp F1        &kp F2          &mmv MOVE_UP    &kp F4           &kp F5       &kp F6   &kp F7        &kp KP_MULTIPLY  &kp F9    &kp F10       &kp F8
-&bt BT_CLR    &none         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none        &none    &mkp MB1      &mkp MB3         &mkp MB2  &kp K_VOL_UP  &kp F11
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 1    &msc SCRL_LEFT  &msc SCRL_RIGHT  &none        &none    &msc SCRL_UP  &msc SCRL_RIGHT  &none     &kp K_VOL_DN  &kp F12
-                                            &kp LEFT_GUI    &none            &kp SPACE    &kp RET  &none         &none
+&kp F3        &kp F1          &kp F2          &mmv MOVE_UP    &kp F4           &kp F5       &kp F6   &kp F7        &kp KP_MULTIPLY  &kp F9    &kp F10       &kp F8
+&bt BT_CLR    &bt BT_CLR_ALL  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none        &none    &mkp MB1      &mkp MB3         &mkp MB2  &kp K_VOL_UP  &kp F11
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_NXT      &msc SCRL_LEFT  &msc SCRL_RIGHT  &none        &none    &msc SCRL_UP  &msc SCRL_RIGHT  &none     &kp K_VOL_DN  &kp F12
+                                              &kp LEFT_GUI    &none            &kp SPACE    &kp RET  &none         &none
             >;
         };
     };
