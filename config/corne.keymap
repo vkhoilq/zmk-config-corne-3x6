@@ -17,9 +17,11 @@
         compatible = "zmk,combos";
 
         to_base {
-            bindings = <&to 0>;
+            bindings = <&tog 0>;
             key-positions = <37 40>;
-            layers = <1 2>;
+            layers = <1 2 0>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
     };
 
@@ -47,7 +49,7 @@
 &kp TAB    &kp Q  &kp W  &kp E             &kp R         &kp T        &kp Y    &kp U     &kp I      &kp O    &kp P     &kp BSPC
 &kp ESC    &kp A  &kp S  &kp D             &kp F         &kp G        &kp H    &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z  &kp X  &kp C             &kp V         &kp B        &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &kp RET  &sticky1  &to 2
+                         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &kp RET  &sticky1  &tog 2
             >;
         };
 
@@ -63,7 +65,7 @@
 &kp GRAVE   &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp MINUS          &kp PLUS         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDER        &kp EQUAL
 &kp AT      &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp KP_NUMBER_4       &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7        &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp KP_NUMBER_0  &kp BACKSLASH
 &kp DOLLAR  &none            &kp AMPERSAND     &kp LEFT          &kp RIGHT             &kp AMPERSAND      &kp ASTRK        &kp UP_ARROW           &kp DOWN         &kp CARET          &none            &kp POUND
-                                               &kp LEFT_CONTROL  &kp LEFT_ALT          &kp SPACE          &kp RET          &to 2                  &none
+                                               &kp LEFT_CONTROL  &kp LEFT_ALT          &kp SPACE          &kp RET          &tog 2                 &none
             >;
         };
 
