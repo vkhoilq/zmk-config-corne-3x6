@@ -2,24 +2,24 @@ layout: {zmk_keyboard: corne}
 layers:
   QWERTY:
   - TAB
-  - {t: Q, h: '1'}
-  - {t: W, h: '2'}
-  - {t: E, h: '3'}
-  - {t: R, h: '4'}
-  - {t: T, h: '5'}
-  - {t: Y, h: '6'}
-  - {t: U, h: '7'}
-  - {t: I, h: '8'}
-  - {t: O, h: '9'}
-  - {t: P, h: '0'}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
   - \
   - LALT
   - {t: A, h: LEFT WIN}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
   - {t: F, h: LEFT SHIFT}
-  - {t: G, h: '['}
-  - {t: H, h: '-'}
+  - G
+  - H
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
@@ -30,8 +30,8 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: ']'}
-  - {t: N, h: '='}
+  - B
+  - N
   - M
   - ','
   - .
@@ -40,7 +40,7 @@ layers:
   - {t: ESCAPE, h: Fn}
   - {t: BACKSPACE, h: NUMBER}
   - {t: TAB, h: MOUSE}
-  - {t: ENTER, h: Fn}
+  - {t: RIGHT ARROW, h: Fn}
   - SPACE
   - ENTER
   RESERVED:
@@ -261,3 +261,16 @@ layers:
 combos:
 - p: [0, 12, 24]
   k: '&CL_BT'
+  l: [QWERTY]
+- p: [30, 31]
+  k: '-'
+  l: [QWERTY]
+- p: [31, 32]
+  k: '='
+  l: [QWERTY]
+- p: [27, 28]
+  k: '['
+  l: [QWERTY]
+- p: [28, 29]
+  k: ']'
+  l: [QWERTY]
