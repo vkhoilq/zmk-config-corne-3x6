@@ -16,20 +16,19 @@
     combos {
         compatible = "zmk,combos";
 
-        Go_to_base_layer {
+        to_base {
             bindings = <&to 0>;
             key-positions = <37 40>;
-            timeout-ms = <0>;
             layers = <1 2>;
         };
     };
 
     macros {
-        sitcky_layer1: sitcky_layer1 {
+        sticky1: sticky1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&sl 0>;
-            label = "SITCKY_LAYER1";
+            bindings = <&sl 1>;
+            label = "STICKY1";
         };
     };
 
@@ -45,10 +44,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E             &kp R         &kp T        &kp Y    &kp U           &kp I      &kp O    &kp P     &kp BSPC
-&kp ESC    &kp A  &kp S  &kp D             &kp F         &kp G        &kp H    &kp J           &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C             &kp V         &kp B        &kp N    &kp M           &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
-                         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &kp RET  &sitcky_layer1  &to 2
+&kp TAB    &kp Q  &kp W  &kp E             &kp R         &kp T        &kp Y    &kp U     &kp I      &kp O    &kp P     &kp BSPC
+&kp ESC    &kp A  &kp S  &kp D             &kp F         &kp G        &kp H    &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C             &kp V         &kp B        &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHIFT
+                         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &kp RET  &sticky1  &to 2
             >;
         };
 
