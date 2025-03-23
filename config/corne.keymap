@@ -117,7 +117,7 @@
 
         cb_paranthesis {
             bindings = <&morph_shift_paranthesis>;
-            key-positions = <32>;
+            key-positions = <32 33>;
             layers = <0>;
         };
     };
