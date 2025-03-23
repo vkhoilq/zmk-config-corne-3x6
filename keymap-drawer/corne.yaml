@@ -274,9 +274,8 @@ combos:
 - p: [28, 29]
   k: ']'
   l: [QWERTY]
-- p: [24, 25]
-  k: '&soft_off'
-  l: [MOUSE]
+- p: [24, 25, 26, 27]
+  k: '&mc_softoff'
 - p: [32, 33]
   k: {t: (, s: )}
   l: [QWERTY]
