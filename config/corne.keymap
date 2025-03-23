@@ -64,6 +64,16 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
+
+        morph_shift_paranthesis: morph_shift_paranthesis {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_SHIFT_PARANTHESIS";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
@@ -96,6 +106,18 @@
         cb_right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <28 29>;
+            layers = <0>;
+        };
+
+        soft_off {
+            bindings = <&soft_off>;
+            key-positions = <24 25>;
+            layers = <4>;
+        };
+
+        cb_paranthesis {
+            bindings = <&morph_shift_paranthesis>;
+            key-positions = <32>;
             layers = <0>;
         };
     };
