@@ -23,7 +23,7 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RCTRL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT SHIFT}
+  - {t: ;, h: RIGHT GUI}
   - ''''
   - LCTRL
   - Z
@@ -40,7 +40,7 @@ layers:
   - {t: ESCAPE, h: Fn}
   - {t: BACKSPACE, h: NUMBER}
   - {t: TAB, h: MOUSE}
-  - {t: RIGHT ARROW, h: Fn}
+  - {t: RIGHT ARROW, h: NUMBER}
   - SPACE
   - ENTER
   RESERVED:
@@ -273,4 +273,10 @@ combos:
   l: [QWERTY]
 - p: [28, 29]
   k: ']'
+  l: [QWERTY]
+- p: [24, 25]
+  k: '&soft_off'
+  l: [MOUSE]
+- p: [32, 33]
+  k: {t: (, s: )}
   l: [QWERTY]
