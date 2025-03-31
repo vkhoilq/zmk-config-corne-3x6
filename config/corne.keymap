@@ -139,6 +139,17 @@
             key-positions = <32 33>;
             layers = <0>;
         };
+        cb_num_smart_layer {
+            bindings = <&num_word 2>;
+            key-positions = <39 40>;
+            layers = <0>;
+        };
+
+        cb_nav_smart_layer {
+            bindings = <&nav_word 2>;
+            key-positions = <40 41>;
+            layers = <0>;
+        };
     };
 
     macros {
