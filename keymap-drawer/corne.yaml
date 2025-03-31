@@ -279,3 +279,9 @@ combos:
 - p: [32, 33]
   k: {t: (, s: )}
   l: [QWERTY]
+- p: [39, 40]
+  k: '&num_word 2'
+  l: [QWERTY]
+- p: [40, 41]
+  k: '&nav_word 2'
+  l: [QWERTY]

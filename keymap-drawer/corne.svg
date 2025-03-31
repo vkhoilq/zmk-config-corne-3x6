@@ -346,6 +346,18 @@ path.combo {
 <text x="672" y="144" class="combo tap">(</text>
 <text x="672" y="132" class="combo shifted">)</text>
 </g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="508" y="206" width="28" height="26" class="combo"/>
+<text x="522" y="219" class="combo tap">
+<tspan x="522" dy="-0.6em" style="font-size: 78%">&amp;num_word</tspan><tspan x="522" dy="1.2em" style="font-size: 78%">2</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="571" y="196" width="28" height="26" class="combo"/>
+<text x="585" y="209" class="combo tap">
+<tspan x="585" dy="-0.6em" style="font-size: 78%">&amp;nav_word</tspan><tspan x="585" dy="1.2em" style="font-size: 78%">2</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-RESERVED">
