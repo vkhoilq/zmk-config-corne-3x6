@@ -295,10 +295,10 @@
         layer_4 {
             display-name = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans          &trans           &trans          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LC(LG(LEFT_ARROW))    &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LC(LG(RIGHT))         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans  &trans
-                        &trans  &trans  &trans                    &mkp LCLK       &mkp RCLK       &mkp MCLK
+&trans         &trans  &trans     &trans     &trans     &trans                    &trans          &trans          &trans           &trans          &trans  &trans
+&trans         &trans  &trans     &trans     &trans     &kp LC(LG(LEFT_ARROW))    &trans          &mmv MOVE_UP    &trans           &msc SCRL_UP    &trans  &trans
+&kp LG(LS(S))  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LG(RIGHT))         &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans  &trans
+                                  &trans     &trans     &trans                    &mkp LCLK       &mkp RCLK       &mkp MCLK
             >;
         };
 
