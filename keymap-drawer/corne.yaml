@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   QWERTY:
-  - TAB
+  - '&td_capsword_tab'
   - Q
   - W
   - E
