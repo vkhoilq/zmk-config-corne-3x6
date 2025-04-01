@@ -197,11 +197,11 @@ layers:
   - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Gui+Sft+S
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - Ctl+Gui+RIGHT
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
