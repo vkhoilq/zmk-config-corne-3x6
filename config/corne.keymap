@@ -58,13 +58,6 @@
             hold-trigger-on-release;             // delay positional check until key-release
         };
 
-        td0: td0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD0";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
-        };
-
         morph_shift_paranthesis: morph_shift_paranthesis {
             compatible = "zmk,behavior-mod-morph";
             label = "MORPH_SHIFT_PARANTHESIS";
@@ -87,6 +80,15 @@
             #binding-cells = <1>;
             continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
             ignore-numbers;
+        };
+
+        td_capsword_tab: td_capsword_tab {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_CAPSWORD_TAB";
+            #binding-cells = <0>;
+            bindings = <&kp TAB>, <&caps_word>;
+
+            tapping-term-ms = <80>;
         };
     };
 
