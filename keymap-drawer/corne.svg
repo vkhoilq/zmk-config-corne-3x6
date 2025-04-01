@@ -358,6 +358,14 @@ path.combo {
 <tspan x="585" dy="-0.6em" style="font-size: 78%">&amp;nav_word</tspan><tspan x="585" dy="1.2em" style="font-size: 78%">2</tspan>
 </text>
 </g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="154" y="130" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">&#x27;</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
+<text x="616" y="32" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-RESERVED">
