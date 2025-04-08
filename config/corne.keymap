@@ -90,6 +90,42 @@
 
             tapping-term-ms = <80>;
         };
+
+        morph_shift_apostrop: morph_shift_apostrop {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_SHIFT_APOSTROP";
+            bindings = <&kp DOUBLE_QUOTES>, <&kp SINGLE_QUOTE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
+
+        morph_shift_minus: morph_shift_minus {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_SHIFT_MINUS";
+            bindings = <&kp UNDERSCORE>, <&kp MINUS>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        morph_shift_bracket: morph_shift_bracket {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_SHIFT_BRACKET";
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
+
+        morph_shift_open: morph_shift_open {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MORPH_SHIFT_OPEN";
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -102,7 +138,7 @@
         };
 
         cb_minus_underscore {
-            bindings = <&kp MINUS>;
+            bindings = <&morph_shift_minus>;
             key-positions = <30 31>;
             layers = <0>;
         };
@@ -114,13 +150,13 @@
         };
 
         cb_left_bracket {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&morph_shift_bracket>;
             key-positions = <27 28>;
             layers = <0>;
         };
 
         cb_right_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&morph_shift_open>;
             key-positions = <28 29>;
             layers = <0>;
         };
@@ -149,14 +185,8 @@
         };
 
         cb_apostro {
-            bindings = <&kp SINGLE_QUOTE>;
+            bindings = <&morph_shift_apostrop>;
             key-positions = <26 27>;
-            layers = <0>;
-        };
-
-        cb_backspace1 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <7 8>;
             layers = <0>;
         };
     };
