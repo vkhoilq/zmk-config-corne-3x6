@@ -288,3 +288,9 @@ combos:
 - p: [26, 27]
   k: {t: '"', s: ''''}
   l: [QWERTY]
+- p: [15, 14]
+  k: BACKSPACE
+- p: [15, 28]
+  k: ESCAPE
+- p: [15, 17]
+  k: RIGHT
