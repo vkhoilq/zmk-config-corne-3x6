@@ -263,16 +263,16 @@ combos:
   k: '&CL_BT'
   l: [QWERTY]
 - p: [30, 31]
-  k: '-'
+  k: {t: _, s: '-'}
   l: [QWERTY]
 - p: [31, 32]
   k: '='
   l: [QWERTY]
 - p: [27, 28]
-  k: '['
+  k: {t: '[', s: ']'}
   l: [QWERTY]
 - p: [28, 29]
-  k: ']'
+  k: {t: '{', s: '}'}
   l: [QWERTY]
 - p: [24, 25, 26, 27]
   k: '&mc_softoff'
@@ -286,8 +286,5 @@ combos:
   k: '&nav_word 2'
   l: [QWERTY]
 - p: [26, 27]
-  k: ''''
-  l: [QWERTY]
-- p: [7, 8]
-  k: BACKSPACE
+  k: {t: '"', s: ''''}
   l: [QWERTY]
