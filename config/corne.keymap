@@ -86,7 +86,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_CAPSWORD_TAB";
             #binding-cells = <0>;
-            bindings = <&kp TAB>, <&caps_word>;
+            bindings = <&kp LEFT_GUI>, <&caps_word>;
 
             tapping-term-ms = <80>;
         };
@@ -188,6 +188,21 @@
             bindings = <&morph_shift_apostrop>;
             key-positions = <26 27>;
             layers = <0>;
+        };
+
+        cb_backcaps {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <15 14>;
+        };
+
+        cb_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <15 28>;
+        };
+
+        cb_right {
+            bindings = <&kp RIGHT>;
+            key-positions = <15 17>;
         };
     };
 
