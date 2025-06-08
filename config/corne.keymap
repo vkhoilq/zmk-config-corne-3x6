@@ -192,17 +192,17 @@
 
         cb_backcaps {
             bindings = <&kp BACKSPACE>;
-            key-positions = <15 14>;
+            key-positions = <3 4>;
         };
 
         cb_escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <15 28>;
+            key-positions = <3 2>;
         };
 
         cb_right {
             bindings = <&kp RIGHT>;
-            key-positions = <15 17>;
+            key-positions = <3 5>;
         };
     };
 
