@@ -224,7 +224,7 @@ layers:
   - F7
   - F8
   - F9
-  - ''
+  - PRINTSCREEN
   - ''
   - ''
   - ''
@@ -236,7 +236,7 @@ layers:
   - F4
   - F5
   - F6
-  - ''
+  - SCROLLLOCK
   - ''
   - LSHFT
   - LCTRL
@@ -248,7 +248,7 @@ layers:
   - F1
   - F2
   - F3
-  - ''
+  - PAUSE BREAK
   - ''
   - ''
   - ''
