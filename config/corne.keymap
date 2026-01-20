@@ -54,6 +54,18 @@
             key-positions = <0 12 24>;
             layers = <1>;
         };
+
+        Genpd1 {
+            bindings = <&kp RS(RA(RC(RG(C_MENU))))>;
+            key-positions = <10 22 34>;
+            layers = <0 1>;
+        };
+
+        Genpd2 {
+            bindings = <&kp RS(RA(RC(RG(K_WWW))))>;
+            key-positions = <9 21 33>;
+            layers = <0 1>;
+        };
     };
 
     keymap {
