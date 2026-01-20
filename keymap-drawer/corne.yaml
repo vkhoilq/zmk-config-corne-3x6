@@ -1,7 +1,48 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Default: ['', Q, W, F, P, B, J, L, U, Y, '''', '', '', A, S, D, F, G, H, J, K, L, ;, '', '', Z, X, C, V, B, N, M, ',', ., /, '', LGUI, Alternative, SPACE, SPACE,
-    Nav, RALT]
+  Default:
+  - ''
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - ''
+  - ''
+  - {t: A, h: LEFT GUI}
+  - {t: R, h: LEFT ALT}
+  - {t: S, h: LEFT CONTROL}
+  - {t: T, h: LEFT GUI}
+  - G
+  - M
+  - {t: N, h: RIGHT SHIFT}
+  - {t: E, h: RIGHT CONTROL}
+  - {t: I, h: LEFT ALT}
+  - {t: O, h: RIGHT GUI}
+  - ''
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - ''
+  - LGUI
+  - Alternative
+  - SPACE
+  - SPACE
+  - Nav
+  - RALT
   Alternative:
   - ESC
   - ''
