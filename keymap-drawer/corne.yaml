@@ -394,3 +394,9 @@ combos:
 - p: [0, 12, 24]
   k: Default
   l: [Alternative]
+- p: [10, 22, 34]
+  k: Sft+AltGr+Ctl+Gui+MENU
+  l: [Default, Alternative]
+- p: [9, 21, 33]
+  k: Sft+AltGr+Ctl+Gui+WWW
+  l: [Default, Alternative]
