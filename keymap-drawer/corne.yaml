@@ -88,47 +88,47 @@ layers:
   - {t: RIGHT ALT, h: Func}
   Nav:
   - ''
+  - '&bootloader'
   - ''
   - ''
   - ''
   - ''
+  - AGAIN
+  - PASTE
+  - COPY
+  - CUT
+  - UNDO
+  - ''
+  - ''
+  - LEFT GUI
+  - LEFT ALT
+  - LEFT CONTROL
+  - LEFT SHIFT
+  - ''
+  - CAPSLOCK
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - ''
   - ''
   - ''
+  - RIGHT ALT
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - INSERT
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
   - ''
   - ''
   - {type: held}
   - ''
-  - ''
-  - ''
-  - ''
+  - ENTER
+  - BACKSPACE
+  - DELETE
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
