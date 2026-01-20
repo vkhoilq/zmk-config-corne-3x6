@@ -312,10 +312,10 @@ layers:
   - ''
   - ''
   - RGB TOG
-  - {t: ESC, s: '`'}
-  - ''
-  - ''
-  - ''
+  - {t: RGB EFF, s: RGB EFR}
+  - {t: RGB HUI, s: RGB HUD}
+  - {t: RGB SAI, s: RGB SAD}
+  - {t: RGB BRI, s: RGB BRD}
   - ''
   - ''
   - LGUI
@@ -323,11 +323,11 @@ layers:
   - LCTRL
   - LSHFT
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: EP TOG, s: EP OFF}
+  - PREV
+  - VOLUME UP
+  - VOLUME DOWN
+  - NEXT
   - ''
   - ''
   - ''
@@ -335,7 +335,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: OUT TOG, s: OUT USB}
   - ''
   - ''
   - ''
@@ -344,9 +344,9 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - STOP
+  - PLAY PAUSE
+  - MUTE
   '9': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '']
 combos:
