@@ -5,7 +5,10 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -75,6 +78,66 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MOD_RGB_BRIGHTNESS";
             bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_ext_power: mod_ext_power {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_EXT_POWER";
+            bindings = <&ext_power EP_TOG>, <&ext_power EP_OFF>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_output: mod_output {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_OUTPUT";
+            bindings = <&out OUT_TOG>, <&out OUT_USB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_bt_choose_0: mod_bt_choose_0 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_BT_CHOOSE_0";
+            bindings = <&bt BT_SEL 0>, <&bt BT_CLR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_bt_choose_1: mod_bt_choose_1 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_BT_CHOOSE_1";
+            bindings = <&bt BT_SEL 1>, <&bt BT_CLR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_bt_choose_2: mod_bt_choose_2 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_BT_CHOOSE_2";
+            bindings = <&bt BT_SEL 2>, <&bt BT_CLR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_bt_choose_3: mod_bt_choose_3 {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_BT_CHOOSE_3";
+            bindings = <&bt BT_SEL 3>, <&bt BT_CLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -187,10 +250,10 @@
 
         Media {
             bindings = <
-&none  &none     &none     &none      &none      &none    &rgb_ug RGB_TOG  &gresc  &none  &none  &none  &none
-&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &none            &none   &none  &none  &none  &none
-&none  &none     &kp LALT  &none      &none      &none    &none            &none   &none  &none  &none  &none
-                           &none      &none      &none    &none            &none   &none
+&none  &none     &none     &none      &none      &none    &rgb_ug RGB_TOG  &mod_rgb_effect   &mod_rgb_hue     &mod_rgb_sat       &mod_rgb_brightness  &none
+&none  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &mod_ext_power   &kp K_PREV        &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_NEXT           &none
+&none  &none     &kp LALT  &none      &none      &none    &mod_output      &none             &none            &none              &none                &none
+                           &none      &none      &none    &kp K_STOP       &kp K_PLAY_PAUSE  &kp K_MUTE
             >;
         };
 
