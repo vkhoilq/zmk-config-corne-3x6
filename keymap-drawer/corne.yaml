@@ -336,10 +336,10 @@ layers:
   - ''
   - ''
   - {t: OUT TOG, s: OUT USB}
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: BT, h: '0', s: BT CLR}
+  - {t: BT, h: '1', s: BT CLR}
+  - {t: BT, h: '2', s: BT CLR}
+  - {t: BT, h: '3', s: BT CLR}
   - ''
   - {type: held}
   - ''
