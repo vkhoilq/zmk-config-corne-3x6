@@ -45,10 +45,10 @@
 
         Default_layer {
             bindings = <
-&none  &kp Q            &kp W            &kp F                &kp P            &kp B        &kp J      &kp L               &kp U                 &kp Y            &kp SQT           &none
-&none  &hrl LEFT_GUI A  &hrl LEFT_ALT R  &hrl LEFT_CONTROL S  &hrl LEFT_GUI T  &kp G        &kp M      &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm LEFT_ALT I  &hrm RIGHT_GUI O  &none
-&none  &kp Z            &kp X            &kp C                &kp D            &kp V        &kp K      &kp H               &kp COMMA             &kp DOT          &kp FSLH          &none
-                                         &kp LGUI             &mo 1            &kp SPACE    &kp SPACE  &mo 2               &kp RALT
+&none  &kp Q            &kp W            &kp F                &kp P            &kp B        &kp J           &kp L               &kp U                 &kp Y            &kp SQT           &none
+&none  &hrl LEFT_GUI A  &hrl LEFT_ALT R  &hrl LEFT_CONTROL S  &hrl LEFT_GUI T  &kp G        &kp M           &hrm RIGHT_SHIFT N  &hrm RIGHT_CONTROL E  &hrm LEFT_ALT I  &hrm RIGHT_GUI O  &none
+&none  &kp Z            &kp X            &kp C                &kp D            &kp V        &kp K           &kp H               &kp COMMA             &kp DOT          &kp FSLH          &none
+                                         &lt 8 ESCAPE         &lt 2 SPACE      &lt 3 TAB    &lt 4 KP_ENTER  &lt 5 BACKSPACE     &lt 6 RIGHT_ALT
             >;
         };
 
