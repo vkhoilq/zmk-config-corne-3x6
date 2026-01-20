@@ -1,296 +1,133 @@
 layout: {zmk_keyboard: corne}
 layers:
-  QWERTY:
-  - '&td_capsword_tab'
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - LALT
-  - {t: A, h: LEFT WIN}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT SHIFT}
-  - G
-  - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT GUI}
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - '`'
-  - {t: ESCAPE, h: Fn}
-  - {t: BACKSPACE, h: NUMBER}
-  - {t: TAB, h: MOUSE}
-  - {t: RIGHT ARROW, h: NUMBER}
-  - SPACE
-  - ENTER
-  RESERVED:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, RET, LSHFT, Z, X, C, V, B, N, M, ',', ., /, RSHFT, LGUI, lower, SPACE, SPACE,
+    raise, RALT]
+  lower:
+  - ESC
+  - ''
   - '7'
   - '8'
   - '9'
-  - '0'
-  - BSPC
-  - {t: ▽, type: trans}
-  - BT CLR ALL
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
+  - PAGE UP
+  - Gui+Sft+J
+  - Ctl+Sft+TAB
+  - Ctl+TAB
+  - ''
+  - ''
+  - DELETE
+  - LCTRL
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - PAGE DOWN
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  - HOME
-  - PG UP
   - ''
-  - RGB OFF
-  - RGB ON
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RGB EFF
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
-  - END
-  - PG DN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - INS
-  - DEL
-  - {t: ▽, type: trans}
-  NUMBER:
-  - {t: ▽, type: trans}
+  - RET
+  - LSHFT
+  - Meh+LGUI
   - '1'
   - '2'
   - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
   - '0'
-  - INSERT
-  - {t: ▽, type: trans}
-  - LEFT GUI
-  - LEFT ALT
-  - LCTRL
-  - LEFT SHIFT
-  - Sft+Ctl+INSERT
-  - HOME
-  - {t: UP ARROW, h: RIGHT SHIFT}
-  - END
-  - PAGE UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - '&ENTER_VIM_COMMAND'
-  - LEFT
-  - DOWN ARROW
-  - RIGHT ARROW
-  - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: RIGHT ARROW, h: LEFT SHIFT}
-  - RET
+  - VOL DN
+  - VOL UP
+  - BRI DN
+  - BRI UP
+  - Meh+LGUI
+  - Gui+LSHFT
+  - LGUI
+  - {t: lower, type: held}
   - SPACE
-  - ENTER
-  Fn:
-  - {t: BT, h: '0'}
-  - RGB TOG
-  - '&pdw'
-  - {t: ▽, type: trans}
-  - Alt+UP ARROW
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - {t: BT, h: '1'}
-  - {t: BT, h: '3'}
-  - {t: ▽, type: trans}
-  - Alt+LEFT ARROW
-  - Alt+DOWN ARROW
-  - Alt+RIGHT ARROW
+  - Gui+Alt+SPACE
+  - raise
+  - RALT
+  raise:
+  - '`'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - +
+  - '='
+  - '-'
+  - LCTRL
+  - ''
+  - '{'
+  - (
+  - '['
+  - ''''
+  - '"'
+  - ']'
+  - )
+  - '}'
+  - \
+  - RET
+  - LSHFT
+  - Meh+LGUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - _
+  - ''
+  - ''
+  - ''
+  - Meh+LGUI
+  - RSHFT
+  - LGUI
+  - lower
+  - Ctl+SPACE
+  - SPACE
+  - {t: raise, type: held}
+  - RALT
+  adjust:
+  - Ctl+Alt+F2
+  - ''
   - F7
   - F8
   - F9
-  - F10
-  - F11
   - F12
-  - {t: BT, h: '2'}
-  - OUT TOG
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  MOUSE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT ARROW
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_UP'
-  - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+Sft+S
-  - {t: ▽, type: trans}
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Gui+RIGHT
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - PP
+  - PREV
+  - NEXT
+  - ''
+  - ''
+  - PRINTSCREEN
+  - ''
+  - ''
+  - F4
+  - F5
+  - F6
+  - F11
+  - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
-  TV_REMOTE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-combos:
-- p: [0, 12, 24]
-  k: '&CL_BT'
-  l: [QWERTY]
-- p: [30, 31]
-  k: {t: _, s: '-'}
-  l: [QWERTY]
-- p: [31, 32]
-  k: '='
-  l: [QWERTY]
-- p: [27, 28]
-  k: {t: '[', s: ']'}
-  l: [QWERTY]
-- p: [28, 29]
-  k: {t: '{', s: '}'}
-  l: [QWERTY]
-- p: [24, 25, 26, 27]
-  k: '&mc_softoff'
-- p: [32, 33]
-  k: {t: (, s: )}
-  l: [QWERTY]
-- p: [39, 40]
-  k: '&num_word 2'
-  l: [QWERTY]
-- p: [40, 41]
-  k: '&nav_word 2'
-  l: [QWERTY]
-- p: [26, 27]
-  k: {t: '"', s: ''''}
-  l: [QWERTY]
-- p: [3, 4]
-  k: BACKSPACE
-- p: [3, 2]
-  k: ESCAPE
-- p: [3, 5]
-  k: RIGHT
+  - '&msc SCRL_UP'
+  - '&msc SCRL_RIGHT'
+  - Ctl+RALT
+  - RCTRL
+  - ''
+  - Meh+LGUI
+  - F1
+  - F2
+  - F3
+  - F10
+  - RW
+  - FF
+  - ''
+  - ''
+  - Meh+LGUI
+  - Ctl+RSHFT
+  - LGUI
+  - {t: lower, type: held}
+  - ''
+  - ''
+  - {t: raise, type: held}
+  - RALT
