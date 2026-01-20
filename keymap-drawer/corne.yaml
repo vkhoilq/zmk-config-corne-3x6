@@ -37,55 +37,14 @@ layers:
   - .
   - /
   - ''
-  - LGUI
-  - Alternative
-  - SPACE
-  - SPACE
-  - Nav
-  - RALT
-  Alternative:
-  - ESC
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - PAGE UP
-  - Gui+Sft+J
-  - Ctl+Sft+TAB
-  - Ctl+TAB
-  - ''
-  - ''
-  - DELETE
-  - LCTRL
-  - ''
-  - '4'
-  - '5'
-  - '6'
-  - PAGE DOWN
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - ''
-  - RET
-  - LSHFT
-  - Meh+LGUI
-  - '1'
-  - '2'
-  - '3'
-  - '0'
-  - VOL DN
-  - VOL UP
-  - BRI DN
-  - BRI UP
-  - Meh+LGUI
-  - Gui+LSHFT
-  - LGUI
-  - {t: Alternative, type: held}
-  - SPACE
-  - Gui+Alt+SPACE
-  - Nav
-  - RALT
+  - {t: ESCAPE, h: Media}
+  - {t: SPACE, h: Nav}
+  - {t: TAB, h: Mouse}
+  - {t: KP ENTER, h: Symbol}
+  - {t: BACKSPACE, h: Num}
+  - {t: RIGHT ALT, h: Func}
+  Alternative: [ESC, '', '7', '8', '9', PAGE UP, Gui+Sft+J, Ctl+Sft+TAB, Ctl+TAB, '', '', DELETE, LCTRL, '', '4', '5', '6', PAGE DOWN, LEFT, DOWN, UP, RIGHT, '',
+    RET, LSHFT, Meh+LGUI, '1', '2', '3', '0', VOL DN, VOL UP, BRI DN, BRI UP, Meh+LGUI, Gui+LSHFT, LGUI, Alternative, SPACE, Gui+Alt+SPACE, Nav, RALT]
   Nav:
   - '`'
   - '!'
@@ -124,10 +83,10 @@ layers:
   - Meh+LGUI
   - RSHFT
   - LGUI
-  - Alternative
+  - {t: Alternative, type: held}
   - Ctl+SPACE
   - SPACE
-  - {t: Nav, type: held}
+  - Nav
   - RALT
   Mouse:
   - {t: ▽, type: trans}
@@ -168,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num:
@@ -256,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Func:
   - {t: ▽, type: trans}
@@ -300,7 +259,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   Buttons:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -381,7 +340,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
