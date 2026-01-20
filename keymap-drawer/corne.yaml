@@ -17,7 +17,7 @@ layers:
   - {t: A, h: LEFT GUI}
   - {t: R, h: LEFT ALT}
   - {t: S, h: LEFT CONTROL}
-  - {t: T, h: LEFT GUI}
+  - {t: T, h: LEFT SHIFT}
   - G
   - M
   - {t: N, h: RIGHT SHIFT}
@@ -60,7 +60,7 @@ layers:
   - {t: A, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT GUI}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
