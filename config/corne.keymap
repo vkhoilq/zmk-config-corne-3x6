@@ -40,6 +40,22 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        To_Qwerty {
+            bindings = <&mo 1>;
+            key-positions = <0 12 24>;
+            layers = <0>;
+        };
+
+        To_Colemak {
+            bindings = <&mo 0>;
+            key-positions = <0 12 24>;
+            layers = <1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
