@@ -39,7 +39,7 @@ layers:
   - ''
   - {t: ESCAPE, h: Media}
   - {t: SPACE, h: Nav}
-  - {t: TAB, h: Mouse}
+  - {t: TAB, h: Default}
   - {t: KP ENTER, h: Symbol}
   - {t: BACKSPACE, h: Num}
   - {t: RIGHT ALT, h: Func}
@@ -82,7 +82,7 @@ layers:
   - ''
   - {t: ESCAPE, h: Media}
   - {t: SPACE, h: Nav}
-  - {t: TAB, h: Mouse}
+  - {t: TAB, h: Default}
   - {t: KP ENTER, h: Symbol}
   - {t: BACKSPACE, h: Num}
   - {t: RIGHT ALT, h: Func}
@@ -129,49 +129,9 @@ layers:
   - ENTER
   - BACKSPACE
   - DELETE
-  Mouse:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  Mouse: ['', '&bootloader', '', '', '', '', AGAIN, PASTE, COPY, CUT, UNDO, '', '', LEFT GUI, LEFT ALT, LEFT CONTROL, LEFT SHIFT, '', '', '&mmv MOVE_LEFT', '&mmv
+      MOVE_DOWN', '&mmv MOVE_UP', '&mmv MOVE_RIGHT', '', '', '', RIGHT ALT, '', '', '', '', '&msc SCRL_LEFT', '&msc SCRL_DOWN', '&msc SCRL_UP', '&msc SCRL_RIGHT',
+    '', '', '', '', '&mkp MB2', '&mkp MB1', '&mkp MB3']
   Symbol:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
