@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   Default:
-  - ''
+  - {type: held}
   - Q
   - W
   - F
@@ -13,7 +13,7 @@ layers:
   - Y
   - ''''
   - ''
-  - ''
+  - {type: held}
   - {t: A, h: LEFT GUI}
   - {t: R, h: LEFT ALT}
   - {t: S, h: LEFT CONTROL}
@@ -25,7 +25,7 @@ layers:
   - {t: I, h: LEFT ALT}
   - {t: O, h: RIGHT GUI}
   - ''
-  - ''
+  - {type: held}
   - Z
   - X
   - C
@@ -44,7 +44,7 @@ layers:
   - {t: BACKSPACE, h: Num}
   - {t: RIGHT ALT, h: Func}
   Alternative:
-  - ''
+  - {type: held}
   - Q
   - W
   - E
@@ -56,7 +56,7 @@ layers:
   - O
   - P
   - ''
-  - ''
+  - {type: held}
   - {t: A, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
@@ -68,7 +68,7 @@ layers:
   - {t: L, h: LEFT ALT}
   - {t: ;, h: RIGHT GUI}
   - ''
-  - ''
+  - {type: held}
   - Z
   - X
   - C
@@ -387,3 +387,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 12, 24]
+  k: Alternative
+  l: [Default]
+- p: [0, 12, 24]
+  k: Default
+  l: [Alternative]
