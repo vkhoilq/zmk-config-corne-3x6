@@ -40,6 +40,46 @@
             require-prior-idle-ms = <1>;
             hold-trigger-key-positions = <0 12 24 25 13 1 2 14 26 27 15 3 4 28 16 29 17 5>;
         };
+
+        mod_rgb_effect: mod_rgb_effect {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_RGB_EFFECT";
+            bindings = <&rgb_ug RGB_EFF>, <&rgb_ug RGB_EFR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_rgb_hue: mod_rgb_hue {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_RGB_HUE";
+            bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_rgb_sat: mod_rgb_sat {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_RGB_SAT";
+            bindings = <&rgb_ug RGB_SAI>, <&rgb_ug RGB_SAD>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
+
+        mod_rgb_brightness: mod_rgb_brightness {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MOD_RGB_BRIGHTNESS";
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LSFT)>;
+        };
     };
 
     combos {
