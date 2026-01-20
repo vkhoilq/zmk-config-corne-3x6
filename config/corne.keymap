@@ -12,6 +12,34 @@
 #define RAISE   2
 
 / {
+    behaviors {
+        hrl: hrl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HRL";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <1>;
+            hold-trigger-key-positions = <7 6 18 30 31 19 8 20 32 33 9 21 34 22 10 11 23 35>;
+        };
+
+        hrm: hrm {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HRM";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <1>;
+            hold-trigger-key-positions = <0 12 24 25 13 1 2 14 26 27 15 3 4 28 16 29 17 5>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
